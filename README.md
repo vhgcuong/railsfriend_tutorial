@@ -1,3 +1,25 @@
+# Dockerizing Ruby Tutorial
+
+[![Build Status](https://tomfern.semaphoreci.com/badges/dockerizing-ruby/branches/master.svg?key=a7410866-1910-44a0-8ef2-624794abd900)](https://tomfern.semaphoreci.com/projects/dockerizing-ruby)
+
+## Local setup
+
+Prepare environment, for dev version you can use the example environment:
+
+```bash
+$ cp env-example .env
+```
+
+Start the server:
+
+```bash
+$ docker-compose up --build
+```
+
+Browse http://localhost:8020
+
+## License
+
 MIT License
 
 Copyright (c) 2022 Rendered Text
@@ -19,3 +41,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
